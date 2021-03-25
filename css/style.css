@@ -1,0 +1,259 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navv-bar {
+  padding-bottom: 30px;
+}
+.nav {
+  margin-top: 15px;
+  width: 100%;
+}
+.nav-bar .btn {
+  transition: all 0.5s;
+}
+.nav-bar .btn:hover {
+  transform: scale(1.03);
+  background-color: rgb(5, 87, 5);
+  color: white;
+}
+.icon-section {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-section .fa {
+  font-size: 30px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.icon-section .fa:nth-last-of-type(1) {
+  margin-right: 3px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* ---------background-section-------- */
+#background-sec {
+  padding: 20x auto 30xp;
+  width: 100%;
+  height: 70vh;
+  background-image: url(../images/background-head.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.background-sec {
+  width: 100%;
+  padding: 20x auto 30xp;
+}
+
+#background-sec .background-sec p {
+  color: #ff6768;
+  text-align: center;
+  padding-top: 10%;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Dela Gothic One", cursive;
+  text-transform: capitalize;
+}
+
+/* .product{
+    display: grid;
+    grid-template-columns: 20% 40% 20% 20% ;
+    grid-template-rows: 20% 80%;
+} */
+.dokme {
+  /* margin: 40px; */
+  height: 30px;
+  width: 30px;
+  background-color: rgb(9, 190, 9);
+  border-radius: 50%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  transition: all 0.5s;
+  margin-right: 2px;
+}
+.dokme:hover {
+  border-radius: 5px;
+  width: 60px;
+}
+.dokme .fa {
+  flex-basis: 60%;
+  color: #fff;
+  font-size: 15px;
+  height: 15px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.dokme .matn {
+  flex-basis: 40%;
+  color: white;
+  transition: all 0.5s 1s;
+  text-overflow: clip;
+  word-wrap: normal;
+  overflow: hidden;
+  font-size: 13px;
+}
+.single-product {
+  margin-bottom: 10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: #efefef;
+  width: 200px;
+  height: 340px;
+  display: grid;
+  grid-template-rows: 7fr 3fr 3fr;
+  grid-template-columns: 20% 1fr 20%;
+  gap: 5px 5px;
+  justify-items: center;
+  align-items: center;
+  direction: rlt;
+  transition: box-shadow 0.5s;
+  cursor: pointer;
+}
+.single-product:hover {
+  box-shadow: 3px 3px 6px rgb(88, 86, 86);
+}
+.price:hover .price-number {
+  font-size: 10px;
+}
+.image {
+  grid-column: 1 / 4;
+  grid-row: 1/2;
+  background-color: red;
+}
+.name {
+  grid-column: 1/4;
+  grid-row: 2 / 3;
+  font-size: 14px;
+  transition: text-shadow 0.5s;
+}
+.name:hover {
+  text-shadow: 1px 1px 2px rgb(139, 133, 133);
+  /* font-size: 15px; */
+}
+.price {
+  grid-column: 1/4;
+  grid-row: 3 / 4;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  direction: rtl;
+}
+.price-number {
+  flex-basis: 80px;
+  margin-left: 30px;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: B Nazanin;
+  transition: font-size 0.5s;
+}
+.price-icon {
+  flex-basis: 20%;
+  display: flex;
+  flex-direction: row;
+}
+
+.offer {
+  grid-column: 2 / 4;
+  grid-row: 1 / 2;
+  align-self: start;
+  justify-self: end;
+  opacity: 0.8;
+}
+
+.star {
+  grid-column: 1/3;
+  grid-row: 1 / 2;
+  align-self: start;
+  justify-self: start;
+  padding-top: 5px;
+  font-size: 15px;
+  color: #ffd700;
+}
+#products {
+  padding: 50px auto 30px;
+  width: 100%;
+}
+
+.product {
+  padding: 20px 5px 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#footer{
+    padding: 30px auto 2px;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: rgb(94, 89, 89);
+    flex-wrap: wrap;
+    direction: rtl;
+    font-family:B Nazanin;
+}
+.about-us{
+    flex-basis: 57%;
+    color: white;
+    margin-right: 10px;
+}
+.about-us h3 {
+   padding-top: 25px;
+}
+.about-us p{
+    text-align: justify;
+    font-size: 1.5vw
+}
+
+.contact{
+    flex-basis: 38%;
+    
+}
+.contact .matn p{
+    padding-top: 25px;
+    color: white;
+    font-size: 17px;
+}
+.contact .icons{
+    font-size: 2vw;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+.contact .icons .fa{
+    transition: all .5s;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+.contact .icons .fa:hover{
+    font-size: 1.5em;
+}
+
+
+.contact .icons .fa:nth-child(1):hover{
+    color: #0088CC;
+}
+.contact .icons .fa:nth-child(2):hover{
+    color: #0e76a8 ;
+}
+.contact .icons .fa:nth-child(3):hover{
+    color: #cd486b ;
+}
+.contact .icons .fa:nth-child(4):hover{
+    color:  #00acee  ;
+}
